@@ -1,0 +1,723 @@
+*  COMBINATIONAL LOGIC EXAMPLE  "C499"
+*-------------------------------------------------------------
+*
+*
+*  TOTAL NUMBER OF LINES IN THE NETLIST ..............   499
+*        LINES FROM PRIMARY INPUT  GATES .......    41
+*        LINES FROM PRIMARY OUTPUT GATES .......    32
+*        LINES FROM INTERIOR GATE OUTPUTS ......   170
+*        LINES FROM **    59 ** FANOUT STEMS ...   256
+*
+*        AVG_FANIN  =  2.02,     MAX_FANIN  =  5
+*        AVG_FANOUT =  4.34,     MAX_FANOUT = 12
+*
+*
+*  SIMPLISTICALLY REDUCED EQUIVALENT FAULT SET SIZE =    758
+*
+*
+*  THE NEUTRAL NETLIST DESCRIPTION BELOW CAN BE CONVERTED VIA
+*  A SIMPLE PROGRAM "FORISCAS" INTO VARIETY OF NETLIST FORMATS:
+*  FOR EXAMPLE FUNSIM, TEGAS, OSAKA, CADAT, HILO, ....
+*
+*
+    1 ID0      INPT    3   0 >SA0 >SA1
+  146 D0A      FROM ID0      >SA0 >SA1
+  147 D0B      FROM ID0      >SA0 >SA1
+  148 D0C      FROM ID0      >SA0 >SA1
+    5 ID1      INPT    3   0 >SA0 >SA1
+  149 D1A      FROM ID1      >SA0 >SA1
+  150 D1B      FROM ID1      >SA0 >SA1
+  151 D1C      FROM ID1      >SA0 >SA1
+    9 ID2      INPT    3   0 >SA0 >SA1
+  152 D2A      FROM ID2      >SA0 >SA1
+  153 D2B      FROM ID2      >SA0 >SA1
+  154 D2C      FROM ID2      >SA0 >SA1
+   13 ID3      INPT    3   0 >SA0 >SA1
+  155 D3A      FROM ID3      >SA0 >SA1
+  156 D3B      FROM ID3      >SA0 >SA1
+  157 D3C      FROM ID3      >SA0 >SA1
+   17 ID4      INPT    3   0 >SA0 >SA1
+  158 D4A      FROM ID4      >SA0 >SA1
+  159 D4B      FROM ID4      >SA0 >SA1
+  160 D4C      FROM ID4      >SA0 >SA1
+   21 ID5      INPT    3   0 >SA0 >SA1
+  161 D5A      FROM ID5      >SA0 >SA1
+  162 D5B      FROM ID5      >SA0 >SA1
+  163 D5C      FROM ID5      >SA0 >SA1
+   25 ID6      INPT    3   0 >SA0 >SA1
+  164 D6A      FROM ID6      >SA0 >SA1
+  165 D6B      FROM ID6      >SA0 >SA1
+  166 D6C      FROM ID6      >SA0 >SA1
+   29 ID7      INPT    3   0 >SA0 >SA1
+  167 D7A      FROM ID7      >SA0 >SA1
+  168 D7B      FROM ID7      >SA0 >SA1
+  169 D7C      FROM ID7      >SA0 >SA1
+   33 ID8      INPT    3   0 >SA0 >SA1
+  170 D8A      FROM ID8      >SA0 >SA1
+  171 D8B      FROM ID8      >SA0 >SA1
+  172 D8C      FROM ID8      >SA0 >SA1
+   37 ID9      INPT    3   0 >SA0 >SA1
+  173 D9A      FROM ID9      >SA0 >SA1
+  174 D9B      FROM ID9      >SA0 >SA1
+  175 D9C      FROM ID9      >SA0 >SA1
+   41 ID10     INPT    3   0 >SA0 >SA1
+  176 D10A     FROM ID10     >SA0 >SA1
+  177 D10B     FROM ID10     >SA0 >SA1
+  178 D10C     FROM ID10     >SA0 >SA1
+   45 ID11     INPT    3   0 >SA0 >SA1
+  179 D11A     FROM ID11     >SA0 >SA1
+  180 D11B     FROM ID11     >SA0 >SA1
+  181 D11C     FROM ID11     >SA0 >SA1
+   49 ID12     INPT    3   0 >SA0 >SA1
+  182 D12A     FROM ID12     >SA0 >SA1
+  183 D12B     FROM ID12     >SA0 >SA1
+  184 D12C     FROM ID12     >SA0 >SA1
+   53 ID13     INPT    3   0 >SA0 >SA1
+  185 D13A     FROM ID13     >SA0 >SA1
+  186 D13B     FROM ID13     >SA0 >SA1
+  187 D13C     FROM ID13     >SA0 >SA1
+   57 ID14     INPT    3   0 >SA0 >SA1
+  188 D14A     FROM ID14     >SA0 >SA1
+  189 D14B     FROM ID14     >SA0 >SA1
+  190 D14C     FROM ID14     >SA0 >SA1
+   61 ID15     INPT    3   0 >SA0 >SA1
+  191 D15A     FROM ID15     >SA0 >SA1
+  192 D15B     FROM ID15     >SA0 >SA1
+  193 D15C     FROM ID15     >SA0 >SA1
+   65 ID16     INPT    3   0 >SA0 >SA1
+  194 D16A     FROM ID16     >SA0 >SA1
+  195 D16B     FROM ID16     >SA0 >SA1
+  196 D16C     FROM ID16     >SA0 >SA1
+   69 ID17     INPT    3   0 >SA0 >SA1
+  197 D17A     FROM ID17     >SA0 >SA1
+  198 D17B     FROM ID17     >SA0 >SA1
+  199 D17C     FROM ID17     >SA0 >SA1
+   73 ID18     INPT    3   0 >SA0 >SA1
+  200 D18A     FROM ID18     >SA0 >SA1
+  201 D18B     FROM ID18     >SA0 >SA1
+  202 D18C     FROM ID18     >SA0 >SA1
+   77 ID19     INPT    3   0 >SA0 >SA1
+  203 D19A     FROM ID19     >SA0 >SA1
+  204 D19B     FROM ID19     >SA0 >SA1
+  205 D19C     FROM ID19     >SA0 >SA1
+   81 ID20     INPT    3   0 >SA0 >SA1
+  206 D20A     FROM ID20     >SA0 >SA1
+  207 D20B     FROM ID20     >SA0 >SA1
+  208 D20C     FROM ID20     >SA0 >SA1
+   85 ID21     INPT    3   0 >SA0 >SA1
+  209 D21A     FROM ID21     >SA0 >SA1
+  210 D21B     FROM ID21     >SA0 >SA1
+  211 D21C     FROM ID21     >SA0 >SA1
+   89 ID22     INPT    3   0 >SA0 >SA1
+  212 D22A     FROM ID22     >SA0 >SA1
+  213 D22B     FROM ID22     >SA0 >SA1
+  214 D22C     FROM ID22     >SA0 >SA1
+   93 ID23     INPT    3   0 >SA0 >SA1
+  215 D23A     FROM ID23     >SA0 >SA1
+  216 D23B     FROM ID23     >SA0 >SA1
+  217 D23C     FROM ID23     >SA0 >SA1
+   97 ID24     INPT    3   0 >SA0 >SA1
+  218 D24A     FROM ID24     >SA0 >SA1
+  219 D24B     FROM ID24     >SA0 >SA1
+  220 D24C     FROM ID24     >SA0 >SA1
+  101 ID25     INPT    3   0 >SA0 >SA1
+  221 D25A     FROM ID25     >SA0 >SA1
+  222 D25B     FROM ID25     >SA0 >SA1
+  223 D25C     FROM ID25     >SA0 >SA1
+  105 ID26     INPT    3   0 >SA0 >SA1
+  224 D26A     FROM ID26     >SA0 >SA1
+  225 D26B     FROM ID26     >SA0 >SA1
+  226 D26C     FROM ID26     >SA0 >SA1
+  109 ID27     INPT    3   0 >SA0 >SA1
+  227 D27A     FROM ID27     >SA0 >SA1
+  228 D27B     FROM ID27     >SA0 >SA1
+  229 D27C     FROM ID27     >SA0 >SA1
+  113 ID28     INPT    3   0 >SA0 >SA1
+  230 D28A     FROM ID28     >SA0 >SA1
+  231 D28B     FROM ID28     >SA0 >SA1
+  232 D28C     FROM ID28     >SA0 >SA1
+  117 ID29     INPT    3   0 >SA0 >SA1
+  233 D29A     FROM ID29     >SA0 >SA1
+  234 D29B     FROM ID29     >SA0 >SA1
+  235 D29C     FROM ID29     >SA0 >SA1
+  121 ID30     INPT    3   0 >SA0 >SA1
+  236 D30A     FROM ID30     >SA0 >SA1
+  237 D30B     FROM ID30     >SA0 >SA1
+  238 D30C     FROM ID30     >SA0 >SA1
+  125 ID31     INPT    3   0 >SA0 >SA1
+  239 D31A     FROM ID31     >SA0 >SA1
+  240 D31B     FROM ID31     >SA0 >SA1
+  241 D31C     FROM ID31     >SA0 >SA1
+  129 IC0      INPT    1   0      >SA1
+  130 IC1      INPT    1   0      >SA1
+  131 IC2      INPT    1   0      >SA1
+  132 IC3      INPT    1   0      >SA1
+  133 IC4      INPT    1   0      >SA1
+  134 IC5      INPT    1   0      >SA1
+  135 IC6      INPT    1   0      >SA1
+  136 IC7      INPT    1   0      >SA1
+  137 R        INPT    8   0 >SA0 >SA1
+  242 R0       FROM R             >SA1
+  243 R1       FROM R             >SA1
+  244 R2       FROM R             >SA1
+  245 R3       FROM R             >SA1
+  246 R4       FROM R             >SA1
+  247 R5       FROM R             >SA1
+  248 R6       FROM R             >SA1
+  249 R7       FROM R             >SA1
+  250 XA0      XOR     1   2 >SA0 >SA1
+   146   149
+  251 XA1      XOR     1   2 >SA0 >SA1
+   152   155
+  252 XA2      XOR     1   2 >SA0 >SA1
+   158   161
+  253 XA3      XOR     1   2 >SA0 >SA1
+   164   167
+  254 XA4      XOR     1   2 >SA0 >SA1
+   170   173
+  255 XA5      XOR     1   2 >SA0 >SA1
+   176   179
+  256 XA6      XOR     1   2 >SA0 >SA1
+   182   185
+  257 XA7      XOR     1   2 >SA0 >SA1
+   188   191
+  258 XA8      XOR     1   2 >SA0 >SA1
+   194   197
+  259 XA9      XOR     1   2 >SA0 >SA1
+   200   203
+  260 XA10     XOR     1   2 >SA0 >SA1
+   206   209
+  261 XA11     XOR     1   2 >SA0 >SA1
+   212   215
+  262 XA12     XOR     1   2 >SA0 >SA1
+   218   221
+  263 XA13     XOR     1   2 >SA0 >SA1
+   224   227
+  264 XA14     XOR     1   2 >SA0 >SA1
+   230   233
+  265 XA15     XOR     1   2 >SA0 >SA1
+   236   239
+  266 H0       AND     1   2 >SA0 >SA1
+   129   242
+  267 H1       AND     1   2 >SA0 >SA1
+   130   243
+  268 H2       AND     1   2 >SA0 >SA1
+   131   244
+  269 H3       AND     1   2 >SA0 >SA1
+   132   245
+  270 H4       AND     1   2 >SA0 >SA1
+   133   246
+  271 H5       AND     1   2 >SA0 >SA1
+   134   247
+  272 H6       AND     1   2 >SA0 >SA1
+   135   248
+  273 H7       AND     1   2 >SA0 >SA1
+   136   249
+  274 XB0      XOR     1   2 >SA0 >SA1
+   147   159
+  275 XC0      XOR     1   2 >SA0 >SA1
+   171   183
+  276 XB1      XOR     1   2 >SA0 >SA1
+   150   162
+  277 XC1      XOR     1   2 >SA0 >SA1
+   174   186
+  278 XB2      XOR     1   2 >SA0 >SA1
+   153   165
+  279 XC2      XOR     1   2 >SA0 >SA1
+   177   189
+  280 XB3      XOR     1   2 >SA0 >SA1
+   156   168
+  281 XC3      XOR     1   2 >SA0 >SA1
+   180   192
+  282 XB4      XOR     1   2 >SA0 >SA1
+   195   207
+  283 XC4      XOR     1   2 >SA0 >SA1
+   219   231
+  284 XB5      XOR     1   2 >SA0 >SA1
+   198   210
+  285 XC5      XOR     1   2 >SA0 >SA1
+   222   234
+  286 XB6      XOR     1   2 >SA0 >SA1
+   201   213
+  287 XC6      XOR     1   2 >SA0 >SA1
+   225   237
+  288 XB7      XOR     1   2 >SA0 >SA1
+   204   216
+  289 XC7      XOR     1   2 >SA0 >SA1
+   228   240
+  290 F0       XOR     2   2 >SA0 >SA1
+   250   251
+  322 F0A      FROM F0       >SA0 >SA1
+  323 F0B      FROM F0       >SA0 >SA1
+  293 F1       XOR     2   2 >SA0 >SA1
+   252   253
+  324 F1A      FROM F1       >SA0 >SA1
+  325 F1B      FROM F1       >SA0 >SA1
+  296 F2       XOR     2   2 >SA0 >SA1
+   254   255
+  326 F2A      FROM F2       >SA0 >SA1
+  327 F2B      FROM F2       >SA0 >SA1
+  299 F3       XOR     2   2 >SA0 >SA1
+   256   257
+  328 F3A      FROM F3       >SA0 >SA1
+  329 F3B      FROM F3       >SA0 >SA1
+  302 F4       XOR     2   2 >SA0 >SA1
+   258   259
+  330 F4A      FROM F4       >SA0 >SA1
+  331 F4B      FROM F4       >SA0 >SA1
+  305 F5       XOR     2   2 >SA0 >SA1
+   260   261
+  332 F5A      FROM F5       >SA0 >SA1
+  333 F5B      FROM F5       >SA0 >SA1
+  308 F6       XOR     2   2 >SA0 >SA1
+   262   263
+  334 F6A      FROM F6       >SA0 >SA1
+  335 F6B      FROM F6       >SA0 >SA1
+  311 F7       XOR     2   2 >SA0 >SA1
+   264   265
+  336 F7A      FROM F7       >SA0 >SA1
+  337 F7B      FROM F7       >SA0 >SA1
+  314 XE0      XOR     1   2 >SA0 >SA1
+   274   275
+  315 XE1      XOR     1   2 >SA0 >SA1
+   276   277
+  316 XE2      XOR     1   2 >SA0 >SA1
+   278   279
+  317 XE3      XOR     1   2 >SA0 >SA1
+   280   281
+  318 XE4      XOR     1   2 >SA0 >SA1
+   282   283
+  319 XE5      XOR     1   2 >SA0 >SA1
+   284   285
+  320 XE6      XOR     1   2 >SA0 >SA1
+   286   287
+  321 XE7      XOR     1   2 >SA0 >SA1
+   288   289
+  338 G0       XOR     1   2 >SA0 >SA1
+   322   324
+  339 G1       XOR     1   2 >SA0 >SA1
+   326   328
+  340 G2       XOR     1   2 >SA0 >SA1
+   323   327
+  341 G3       XOR     1   2 >SA0 >SA1
+   325   329
+  342 G4       XOR     1   2 >SA0 >SA1
+   330   332
+  343 G5       XOR     1   2 >SA0 >SA1
+   334   336
+  344 G6       XOR     1   2 >SA0 >SA1
+   331   335
+  345 G7       XOR     1   2 >SA0 >SA1
+   333   337
+  346 XD0      XOR     1   2 >SA0 >SA1
+   266   342
+  347 XD1      XOR     1   2 >SA0 >SA1
+   267   343
+  348 XD2      XOR     1   2 >SA0 >SA1
+   268   344
+  349 XD3      XOR     1   2 >SA0 >SA1
+   269   345
+  350 XD4      XOR     1   2 >SA0 >SA1
+   270   338
+  351 XD5      XOR     1   2 >SA0 >SA1
+   271   339
+  352 XD6      XOR     1   2 >SA0 >SA1
+   272   340
+  353 XD7      XOR     1   2 >SA0 >SA1
+   273   341
+  354 S0       XOR    12   2 >SA0 >SA1
+   314   346
+  458 S0A      FROM S0
+  459 S0B      FROM S0
+  460 S0C      FROM S0
+  461 S0D      FROM S0            >SA1
+  462 S0E      FROM S0            >SA1
+  463 S0F      FROM S0            >SA1
+  464 S0G      FROM S0            >SA1
+  465 S0H      FROM S0            >SA1
+  466 S0I      FROM S0            >SA1
+  467 S0J      FROM S0            >SA1
+  468 S0K      FROM S0
+  469 S0L      FROM S0
+  367 S1       XOR    12   2 >SA0 >SA1
+   315   347
+  470 S1A      FROM S1
+  471 S1B      FROM S1
+  472 S1C      FROM S1            >SA1
+  473 S1D      FROM S1
+  474 S1E      FROM S1            >SA1
+  475 S1F      FROM S1            >SA1
+  476 S1G      FROM S1            >SA1
+  477 S1H      FROM S1            >SA1
+  478 S1I      FROM S1
+  479 S1J      FROM S1
+  480 S1K      FROM S1            >SA1
+  481 S1L      FROM S1            >SA1
+  380 S2       XOR    12   2 >SA0 >SA1
+   316   348
+  482 S2A      FROM S2
+  483 S2B      FROM S2            >SA1
+  484 S2C      FROM S2
+  485 S2D      FROM S2
+  486 S2E      FROM S2            >SA1
+  487 S2F      FROM S2            >SA1
+  488 S2G      FROM S2            >SA1
+  489 S2H      FROM S2            >SA1
+  490 S2I      FROM S2            >SA1
+  491 S2J      FROM S2
+  492 S2K      FROM S2            >SA1
+  493 S2L      FROM S2
+  393 S3       XOR    12   2 >SA0 >SA1
+   317   349
+  494 S3A      FROM S3            >SA1
+  495 S3B      FROM S3
+  496 S3C      FROM S3
+  497 S3D      FROM S3
+  498 S3E      FROM S3            >SA1
+  499 S3F      FROM S3            >SA1
+  500 S3G      FROM S3            >SA1
+  501 S3H      FROM S3            >SA1
+  502 S3I      FROM S3
+  503 S3J      FROM S3            >SA1
+  504 S3K      FROM S3
+  505 S3L      FROM S3            >SA1
+  406 S4       XOR    12   2 >SA0 >SA1
+   318   350
+  506 S4A      FROM S4
+  507 S4B      FROM S4
+  508 S4C      FROM S4
+  509 S4D      FROM S4            >SA1
+  510 S4E      FROM S4            >SA1
+  511 S4F      FROM S4            >SA1
+  512 S4G      FROM S4            >SA1
+  513 S4H      FROM S4            >SA1
+  514 S4I      FROM S4            >SA1
+  515 S4J      FROM S4            >SA1
+  516 S4K      FROM S4
+  517 S4L      FROM S4
+  419 S5       XOR    12   2 >SA0 >SA1
+   319   351
+  518 S5A      FROM S5
+  519 S5B      FROM S5
+  520 S5C      FROM S5            >SA1
+  521 S5D      FROM S5
+  522 S5E      FROM S5            >SA1
+  523 S5F      FROM S5            >SA1
+  524 S5G      FROM S5            >SA1
+  525 S5H      FROM S5            >SA1
+  526 S5I      FROM S5
+  527 S5J      FROM S5
+  528 S5K      FROM S5            >SA1
+  529 S5L      FROM S5            >SA1
+  432 S6       XOR    12   2 >SA0 >SA1
+   320   352
+  530 S6A      FROM S6
+  531 S6B      FROM S6            >SA1
+  532 S6C      FROM S6
+  533 S6D      FROM S6
+  534 S6E      FROM S6            >SA1
+  535 S6F      FROM S6            >SA1
+  536 S6G      FROM S6            >SA1
+  537 S6H      FROM S6            >SA1
+  538 S6I      FROM S6            >SA1
+  539 S6J      FROM S6
+  540 S6K      FROM S6            >SA1
+  541 S6L      FROM S6
+  445 S7       XOR    12   2 >SA0 >SA1
+   321   353
+  542 S7A      FROM S7            >SA1
+  543 S7B      FROM S7
+  544 S7C      FROM S7
+  545 S7D      FROM S7
+  546 S7E      FROM S7            >SA1
+  547 S7F      FROM S7            >SA1
+  548 S7G      FROM S7            >SA1
+  549 S7H      FROM S7            >SA1
+  550 S7I      FROM S7
+  551 S7J      FROM S7            >SA1
+  552 S7K      FROM S7
+  553 S7L      FROM S7            >SA1
+  554 Y0A      NOT     1   1      >SA1
+   458
+  555 Y1A      NOT     1   1      >SA1
+   470
+  556 Y2A      NOT     1   1      >SA1
+   482
+  557 Y0B      NOT     1   1      >SA1
+   459
+  558 Y1B      NOT     1   1      >SA1
+   471
+  559 Y3B      NOT     1   1      >SA1
+   495
+  560 Y0C      NOT     1   1      >SA1
+   460
+  561 Y2C      NOT     1   1      >SA1
+   484
+  562 Y3C      NOT     1   1      >SA1
+   496
+  563 Y1D      NOT     1   1      >SA1
+   473
+  564 Y2D      NOT     1   1      >SA1
+   485
+  565 Y3D      NOT     1   1      >SA1
+   497
+  566 Y5I      NOT     1   1      >SA1
+   526
+  567 Y7I      NOT     1   1      >SA1
+   550
+  568 Y5J      NOT     1   1      >SA1
+   527
+  569 Y6J      NOT     1   1      >SA1
+   539
+  570 Y4K      NOT     1   1      >SA1
+   516
+  571 Y7K      NOT     1   1      >SA1
+   552
+  572 Y4L      NOT     1   1      >SA1
+   517
+  573 Y6L      NOT     1   1      >SA1
+   541
+  574 Y4A      NOT     1   1      >SA1
+   506
+  575 Y5A      NOT     1   1      >SA1
+   518
+  576 Y6A      NOT     1   1      >SA1
+   530
+  577 Y4B      NOT     1   1      >SA1
+   507
+  578 Y5B      NOT     1   1      >SA1
+   519
+  579 Y7B      NOT     1   1      >SA1
+   543
+  580 Y4C      NOT     1   1      >SA1
+   508
+  581 Y6C      NOT     1   1      >SA1
+   532
+  582 Y7C      NOT     1   1      >SA1
+   544
+  583 Y5D      NOT     1   1      >SA1
+   521
+  584 Y6D      NOT     1   1      >SA1
+   533
+  585 Y7D      NOT     1   1      >SA1
+   545
+  586 Y1I      NOT     1   1      >SA1
+   478
+  587 Y3I      NOT     1   1      >SA1
+   502
+  588 Y1J      NOT     1   1      >SA1
+   479
+  589 Y2J      NOT     1   1      >SA1
+   491
+  590 Y0K      NOT     1   1      >SA1
+   468
+  591 Y3K      NOT     1   1      >SA1
+   504
+  592 Y0L      NOT     1   1      >SA1
+   469
+  593 Y2L      NOT     1   1      >SA1
+   493
+  594 T0       AND     1   4 >SA0
+   554   555   556   494
+  595 T1       AND     1   4 >SA0
+   557   558   483   559
+  596 T2       AND     1   4 >SA0
+   560   472   561   562
+  597 T3       AND     1   4 >SA0
+   461   563   564   565
+  598 T4       AND     1   4 >SA0
+   574   575   576   542
+  599 T5       AND     1   4 >SA0
+   577   578   531   579
+  600 T6       AND     1   4 >SA0
+   580   520   581   582
+  601 T7       AND     1   4 >SA0
+   509   583   584   585
+  602 U0       OR      4   4 >SA0 >SA1
+   594   595   596   597
+  612 VA       FROM U0            >SA1
+  613 VB       FROM U0            >SA1
+  614 VC       FROM U0            >SA1
+  615 VD       FROM U0            >SA1
+  607 U1       OR      4   4 >SA0 >SA1
+   598   599   600   601
+  616 VE       FROM U1            >SA1
+  617 VF       FROM U1            >SA1
+  618 VG       FROM U1            >SA1
+  619 VH       FROM U1            >SA1
+  620 WA       AND     4   5 >SA0 >SA1
+   514   566   538   567   612
+  660 WA0      FROM WA            >SA1
+  661 WA1      FROM WA            >SA1
+  662 WA2      FROM WA            >SA1
+  663 WA3      FROM WA            >SA1
+  625 WB       AND     4   5 >SA0 >SA1
+   515   568   569   551   613
+  664 WB0      FROM WB            >SA1
+  665 WB1      FROM WB            >SA1
+  666 WB2      FROM WB            >SA1
+  667 WB3      FROM WB            >SA1
+  630 WC       AND     4   5 >SA0 >SA1
+   570   528   540   571   614
+  668 WC0      FROM WC            >SA1
+  669 WC1      FROM WC            >SA1
+  670 WC2      FROM WC            >SA1
+  671 WC3      FROM WC            >SA1
+  635 WD       AND     4   5 >SA0 >SA1
+   572   529   573   553   615
+  672 WD0      FROM WD            >SA1
+  673 WD1      FROM WD            >SA1
+  674 WD2      FROM WD            >SA1
+  675 WD3      FROM WD            >SA1
+  640 WE       AND     4   5 >SA0 >SA1
+   466   586   490   587   616
+  676 WE0      FROM WE            >SA1
+  677 WE1      FROM WE            >SA1
+  678 WE2      FROM WE            >SA1
+  679 WE3      FROM WE            >SA1
+  645 WF       AND     4   5 >SA0 >SA1
+   467   588   589   503   617
+  680 WF0      FROM WF            >SA1
+  681 WF1      FROM WF            >SA1
+  682 WF2      FROM WF            >SA1
+  683 WF3      FROM WF            >SA1
+  650 WG       AND     4   5 >SA0 >SA1
+   590   480   492   591   618
+  684 WG0      FROM WG            >SA1
+  685 WG1      FROM WG            >SA1
+  686 WG2      FROM WG            >SA1
+  687 WG3      FROM WG            >SA1
+  655 WH       AND     4   5 >SA0 >SA1
+   592   481   593   505   619
+  688 WH0      FROM WH            >SA1
+  689 WH1      FROM WH            >SA1
+  690 WH2      FROM WH            >SA1
+  691 WH3      FROM WH            >SA1
+  692 E0       AND     1   2 >SA0 >SA1
+   462   660
+  693 E1       AND     1   2 >SA0 >SA1
+   474   661
+  694 E2       AND     1   2 >SA0 >SA1
+   486   662
+  695 E3       AND     1   2 >SA0 >SA1
+   498   663
+  696 E4       AND     1   2 >SA0 >SA1
+   463   664
+  697 E5       AND     1   2 >SA0 >SA1
+   475   665
+  698 E6       AND     1   2 >SA0 >SA1
+   487   666
+  699 E7       AND     1   2 >SA0 >SA1
+   499   667
+  700 E8       AND     1   2 >SA0 >SA1
+   464   668
+  701 E9       AND     1   2 >SA0 >SA1
+   476   669
+  702 E10      AND     1   2 >SA0 >SA1
+   488   670
+  703 E11      AND     1   2 >SA0 >SA1
+   500   671
+  704 E12      AND     1   2 >SA0 >SA1
+   465   672
+  705 E13      AND     1   2 >SA0 >SA1
+   477   673
+  706 E14      AND     1   2 >SA0 >SA1
+   489   674
+  707 E15      AND     1   2 >SA0 >SA1
+   501   675
+  708 E16      AND     1   2 >SA0 >SA1
+   510   676
+  709 E17      AND     1   2 >SA0 >SA1
+   522   677
+  710 E18      AND     1   2 >SA0 >SA1
+   534   678
+  711 E19      AND     1   2 >SA0 >SA1
+   546   679
+  712 E20      AND     1   2 >SA0 >SA1
+   511   680
+  713 E21      AND     1   2 >SA0 >SA1
+   523   681
+  714 E22      AND     1   2 >SA0 >SA1
+   535   682
+  715 E23      AND     1   2 >SA0 >SA1
+   547   683
+  716 E24      AND     1   2 >SA0 >SA1
+   512   684
+  717 E25      AND     1   2 >SA0 >SA1
+   524   685
+  718 E26      AND     1   2 >SA0 >SA1
+   536   686
+  719 E27      AND     1   2 >SA0 >SA1
+   548   687
+  720 E28      AND     1   2 >SA0 >SA1
+   513   688
+  721 E29      AND     1   2 >SA0 >SA1
+   525   689
+  722 E30      AND     1   2 >SA0 >SA1
+   537   690
+  723 E31      AND     1   2 >SA0 >SA1
+   549   691
+  724 OD0      XOR     0   2 >SA0 >SA1
+   148   692
+  725 OD1      XOR     0   2 >SA0 >SA1
+   151   693
+  726 OD2      XOR     0   2 >SA0 >SA1
+   154   694
+  727 OD3      XOR     0   2 >SA0 >SA1
+   157   695
+  728 OD4      XOR     0   2 >SA0 >SA1
+   160   696
+  729 OD5      XOR     0   2 >SA0 >SA1
+   163   697
+  730 OD6      XOR     0   2 >SA0 >SA1
+   166   698
+  731 OD7      XOR     0   2 >SA0 >SA1
+   169   699
+  732 OD8      XOR     0   2 >SA0 >SA1
+   172   700
+  733 OD9      XOR     0   2 >SA0 >SA1
+   175   701
+  734 OD10     XOR     0   2 >SA0 >SA1
+   178   702
+  735 OD11     XOR     0   2 >SA0 >SA1
+   181   703
+  736 OD12     XOR     0   2 >SA0 >SA1
+   184   704
+  737 OD13     XOR     0   2 >SA0 >SA1
+   187   705
+  738 OD14     XOR     0   2 >SA0 >SA1
+   190   706
+  739 OD15     XOR     0   2 >SA0 >SA1
+   193   707
+  740 OD16     XOR     0   2 >SA0 >SA1
+   196   708
+  741 OD17     XOR     0   2 >SA0 >SA1
+   199   709
+  742 OD18     XOR     0   2 >SA0 >SA1
+   202   710
+  743 OD19     XOR     0   2 >SA0 >SA1
+   205   711
+  744 OD20     XOR     0   2 >SA0 >SA1
+   208   712
+  745 OD21     XOR     0   2 >SA0 >SA1
+   211   713
+  746 OD22     XOR     0   2 >SA0 >SA1
+   214   714
+  747 OD23     XOR     0   2 >SA0 >SA1
+   217   715
+  748 OD24     XOR     0   2 >SA0 >SA1
+   220   716
+  749 OD25     XOR     0   2 >SA0 >SA1
+   223   717
+  750 OD26     XOR     0   2 >SA0 >SA1
+   226   718
+  751 OD27     XOR     0   2 >SA0 >SA1
+   229   719
+  752 OD28     XOR     0   2 >SA0 >SA1
+   232   720
+  753 OD29     XOR     0   2 >SA0 >SA1
+   235   721
+  754 OD30     XOR     0   2 >SA0 >SA1
+   238   722
+  755 OD31     XOR     0   2 >SA0 >SA1
+   241   723

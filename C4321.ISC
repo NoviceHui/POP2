@@ -1,0 +1,88 @@
+1     1gat inpt    2   0 >sa0 >sa1
+     2     1f01 from     1gat
+     4     4gat inpt    3   0 >sa0 >sa1
+     5     4f01 from     4gat      >sa1
+    11    11gat inpt    2   0 >sa0 >sa1
+    12    11f01 from    11gat
+    17    17gat inpt    3   0 >sa0 >sa1
+    18    17f01 from    17gat      >sa1
+    24    24gat inpt    2   0 >sa0 >sa1
+    25    24f01 from    24gat
+    30    30gat inpt    3   0 >sa0 >sa1
+    31    30f01 from    30gat      >sa1
+    37    37gat inpt    2   0 >sa0 >sa1
+    38    37f01 from    37gat
+    43    43gat inpt    3   0 >sa0 >sa1
+    44    43f01 from    43gat      >sa1
+    50    50gat inpt    2   0 >sa0 >sa1
+    51    50f01 from    50gat
+    56    56gat inpt    3   0 >sa0 >sa1
+    57    56f01 from    56gat      >sa1
+    63    63gat inpt    2   0 >sa0 >sa1
+    64    63f01 from    63gat
+    69    69gat inpt    3   0 >sa0 >sa1
+    70    69f01 from    69gat      >sa1
+    76    76gat inpt    2   0 >sa0 >sa1
+    77    76f01 from    76gat
+    82    82gat inpt    3   0 >sa0 >sa1
+    83    82f01 from    82gat      >sa1
+    89    89gat inpt    2   0 >sa0 >sa1
+    90    89f01 from    89gat
+    95    95gat inpt    3   0 >sa0 >sa1
+    96    95f01 from    95gat      >sa1
+   102   102gat inpt    2   0 >sa0 >sa1
+   103   102f01 from   102gat
+   108   108gat inpt    3   0 >sa0 >sa1
+   109   108f01 from   108gat      >sa1
+   118   118gat not     1   1      >sa1
+      2
+   122   122gat not     1   1      >sa1
+     12
+   126   126gat not     1   1      >sa1
+     25
+   130   130gat not     1   1      >sa1
+     38
+   134   134gat not     1   1      >sa1
+     51
+   138   138gat not     1   1      >sa1
+     64
+   142   142gat not     1   1      >sa1
+     77
+   146   146gat not     1   1      >sa1
+     90
+   150   150gat not     1   1      >sa1
+    103
+   154   154gat nand    2   2 >sa0 >sa1
+    118     5
+   155   154f01 from   154gat      >sa1
+   159   159gat nand    2   2 >sa0 >sa1
+    122    18
+   160   159f01 from   159gat      >sa1
+   162   162gat nand    2   2 >sa0 >sa1
+    126    31
+   163   162f01 from   162gat      >sa1
+   165   165gat nand    2   2 >sa0 >sa1
+    130    44
+   166   165f01 from   165gat      >sa1
+   168   168gat nand    2   2 >sa0 >sa1
+    134    57
+   169   168f01 from   168gat      >sa1
+   171   171gat nand    2   2 >sa0 >sa1
+    138    70
+   172   171f01 from   171gat      >sa1
+   174   174gat nand    2   2 >sa0 >sa1
+    142    83
+   175   174f01 from   174gat      >sa1
+   177   177gat nand    2   2 >sa0 >sa1
+    146    96
+   178   177f01 from   177gat      >sa1
+   180   180gat nand    2   2 >sa0 >sa1
+    150   109
+   181   180f01 from   180gat      >sa1
+   199   199gat and     3   9 >sa0 >sa1
+    155   160   163   166   169   172   175   178   181
+   202   199f03 from   199gat
+   223   223gat not     0   1 >sa0 >sa1
+    202
+ 
+
